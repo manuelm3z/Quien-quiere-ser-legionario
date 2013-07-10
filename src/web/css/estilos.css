@@ -1,0 +1,30 @@
+h1
+{
+	text-align: center;
+}
+div.pregunta
+{
+	border: 10px red solid;
+	content: "";
+	height: auto;
+	margin: 0px auto;
+	width: 70%;
+	font-size: 3em;
+}
+section.respuestas
+{
+	margin: 0px auto;
+	border: 10px green solid;
+	width: 80%;
+}
+article.opcion
+{
+	display: inline-block;
+	width: 45%;
+	padding: 10px 5px;
+	font-size: 2em;
+}
+article.opcion.seleccionado
+{
+	background: red;
+}
